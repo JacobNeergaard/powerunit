@@ -62,6 +62,7 @@
 "J2","MX150-20","Conn_02x10_Top_Bottom","","501000"
 "J3","MX150-8","Conn_02x04_Top_Bottom","","501001"
 "J4","REDCUBE","Conn_02x05_Top_Bottom","","502000"
+"J5","CON-3","Conn_01x03_Male","erp:PinHeader_1x03_P2.54mm_Vertical","501002"
 "Q1","BC847C","Q_NPN_BEC","erp:SOT-23","300000"
 "Q2","STD15P6F6AG","Q_PMOS_GDSD","erp:TO-252-3_TabPin2","303001"
 "Q3","STD45P4LLF6AG","Q_PMOS_GDSD","erp:TO-252-3_TabPin2","303000"
