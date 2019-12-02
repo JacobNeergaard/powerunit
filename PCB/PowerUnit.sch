@@ -2688,18 +2688,18 @@ F 3 "" H 1900 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	700  4600 1300 4600
+	2500 4500 3100 4500
 Wire Wire Line
-	700  4500 1300 4500
+	700  4600 1300 4600
 Wire Wire Line
 	2500 4600 3100 4600
 Wire Wire Line
-	2500 4500 3100 4500
+	700  4500 1300 4500
 Wire Wire Line
 	2500 4800 3100 4800
 Text Label 3100 4800 2    50   ~ 0
 SWIM
-Text Label 3100 4500 2    50   ~ 0
+Text Label 700  4500 0    50   ~ 0
 MCU_OUT_LEFT
 Text Label 3100 4600 2    50   ~ 0
 MCU_OUT_RIGHT
@@ -2997,9 +2997,9 @@ Wire Wire Line
 	1550 5650 2150 5650
 Text Label 2150 5650 2    50   ~ 0
 PWD_LIGHT
-Text Label 700  4500 0    50   ~ 0
-MCU_IN_LEFT
 Text Label 700  4600 0    50   ~ 0
+MCU_IN_LEFT
+Text Label 3100 4500 2    50   ~ 0
 MCU_IN_RIGHT
 Text Label 2500 2200 2    50   ~ 0
 IN_LEFT
