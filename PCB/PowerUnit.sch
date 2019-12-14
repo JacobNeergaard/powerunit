@@ -3159,54 +3159,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 6550 3500 6550
 $Comp
-L erp:Conn_01x01 J6
-U 1 1 5DEF0D06
-P 3050 700
-F 0 "J6" H 3130 742 50  0000 L CNN
-F 1 "MH_M4" H 3130 651 50  0000 L CNN
-F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 3050 700 50  0001 C CNN
-F 3 "" H 3050 700 50  0001 C CNN
-F 4 "503000" H 3050 700 50  0001 C CNN "ItemNo"
-	1    3050 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L erp:Conn_01x01 J7
-U 1 1 5DEF3526
-P 3050 900
-F 0 "J7" H 3130 942 50  0000 L CNN
-F 1 "MH_M4" H 3130 851 50  0000 L CNN
-F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 3050 900 50  0001 C CNN
-F 3 "" H 3050 900 50  0001 C CNN
-F 4 "503000" H 3050 900 50  0001 C CNN "ItemNo"
-	1    3050 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L erp:Conn_01x01 J8
-U 1 1 5DF24468
-P 3050 1100
-F 0 "J8" H 3130 1142 50  0000 L CNN
-F 1 "MH_M4" H 3130 1051 50  0000 L CNN
-F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 3050 1100 50  0001 C CNN
-F 3 "" H 3050 1100 50  0001 C CNN
-F 4 "503000" H 3050 1100 50  0001 C CNN "ItemNo"
-	1    3050 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L erp:Conn_01x01 J9
-U 1 1 5DF55452
-P 3050 1300
-F 0 "J9" H 3130 1342 50  0000 L CNN
-F 1 "MH_M4" H 3130 1251 50  0000 L CNN
-F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 3050 1300 50  0001 C CNN
-F 3 "" H 3050 1300 50  0001 C CNN
-F 4 "503000" H 3050 1300 50  0001 C CNN "ItemNo"
-	1    3050 1300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0103
 U 1 1 5DF873AD
 P 2800 2250
@@ -3233,42 +3185,6 @@ Wire Wire Line
 	2800 1100 2800 1300
 Wire Wire Line
 	2850 1300 2800 1300
-$Comp
-L erp:Conn_01x01 J10
-U 1 1 5E216F8A
-P 3050 1500
-F 0 "J10" H 3130 1542 50  0000 L CNN
-F 1 "MH_M4" H 3130 1451 50  0000 L CNN
-F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 3050 1500 50  0001 C CNN
-F 3 "" H 3050 1500 50  0001 C CNN
-F 4 "503000" H 3050 1500 50  0001 C CNN "ItemNo"
-	1    3050 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L erp:Conn_01x01 J11
-U 1 1 5E216F91
-P 3050 1700
-F 0 "J11" H 3130 1742 50  0000 L CNN
-F 1 "MH_M4" H 3130 1651 50  0000 L CNN
-F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 3050 1700 50  0001 C CNN
-F 3 "" H 3050 1700 50  0001 C CNN
-F 4 "503000" H 3050 1700 50  0001 C CNN "ItemNo"
-	1    3050 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L erp:Conn_01x01 J12
-U 1 1 5E216F98
-P 3050 1900
-F 0 "J12" H 3130 1942 50  0000 L CNN
-F 1 "MH_M4" H 3130 1851 50  0000 L CNN
-F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 3050 1900 50  0001 C CNN
-F 3 "" H 3050 1900 50  0001 C CNN
-F 4 "503000" H 3050 1900 50  0001 C CNN "ItemNo"
-	1    3050 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2800 1300 2800 1500
 Wire Wire Line
@@ -3602,18 +3518,6 @@ Wire Wire Line
 Connection ~ 1300 2700
 Wire Wire Line
 	1300 2700 1400 2700
-$Comp
-L erp:Conn_01x01 J13
-U 1 1 5E927940
-P 3050 2100
-F 0 "J13" H 3130 2142 50  0000 L CNN
-F 1 "MH_M4" H 3130 2051 50  0000 L CNN
-F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 3050 2100 50  0001 C CNN
-F 3 "" H 3050 2100 50  0001 C CNN
-F 4 "503000" H 3050 2100 50  0001 C CNN "ItemNo"
-	1    3050 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 2100 2800 2100
 Wire Wire Line
@@ -3647,5 +3551,125 @@ F 2 "" H 1150 6650 50  0001 C CNN
 F 3 "" H 1150 6650 50  0001 C CNN
 	1    1150 6650
 	1    0    0    -1  
+$EndComp
+$Comp
+L erp:MountingHole_Pad H1
+U 1 1 5E1FC6ED
+P 2950 700
+F 0 "H1" V 2904 850 50  0000 L CNN
+F 1 "MH_M4" V 2995 850 50  0000 L CNN
+F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 2950 700 50  0001 C CNN
+F 3 "" H 2950 700 50  0001 C CNN
+F 4 "503000" H 2950 700 50  0001 C CNN "ItemNo"
+	1    2950 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L erp:Fiducial FID1
+U 1 1 5E2005C9
+P 10750 6200
+F 0 "FID1" H 10835 6246 50  0000 L CNN
+F 1 "FIDU" H 10835 6155 50  0000 L CNN
+F 2 "erp:Fiducial_1mm_Mask2mm" H 10750 6200 50  0001 C CNN
+F 3 "" H 10750 6200 50  0001 C CNN
+F 4 "503001" H 10750 6200 50  0001 C CNN "ItemNo"
+	1    10750 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L erp:Fiducial FID2
+U 1 1 5E200E82
+P 10750 6400
+F 0 "FID2" H 10835 6446 50  0000 L CNN
+F 1 "FIDU" H 10835 6355 50  0000 L CNN
+F 2 "erp:Fiducial_1mm_Mask2mm" H 10750 6400 50  0001 C CNN
+F 3 "" H 10750 6400 50  0001 C CNN
+F 4 "503001" H 10750 6400 50  0001 C CNN "ItemNo"
+	1    10750 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L erp:MountingHole_Pad H2
+U 1 1 5E280284
+P 2950 900
+F 0 "H2" V 2904 1050 50  0000 L CNN
+F 1 "MH_M4" V 2995 1050 50  0000 L CNN
+F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 2950 900 50  0001 C CNN
+F 3 "" H 2950 900 50  0001 C CNN
+F 4 "503000" H 2950 900 50  0001 C CNN "ItemNo"
+	1    2950 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L erp:MountingHole_Pad H3
+U 1 1 5E2BC5B7
+P 2950 1100
+F 0 "H3" V 2904 1250 50  0000 L CNN
+F 1 "MH_M4" V 2995 1250 50  0000 L CNN
+F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 2950 1100 50  0001 C CNN
+F 3 "" H 2950 1100 50  0001 C CNN
+F 4 "503000" H 2950 1100 50  0001 C CNN "ItemNo"
+	1    2950 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L erp:MountingHole_Pad H4
+U 1 1 5E2F8819
+P 2950 1300
+F 0 "H4" V 2904 1450 50  0000 L CNN
+F 1 "MH_M4" V 2995 1450 50  0000 L CNN
+F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 2950 1300 50  0001 C CNN
+F 3 "" H 2950 1300 50  0001 C CNN
+F 4 "503000" H 2950 1300 50  0001 C CNN "ItemNo"
+	1    2950 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L erp:MountingHole_Pad H5
+U 1 1 5E33494B
+P 2950 1500
+F 0 "H5" V 2904 1650 50  0000 L CNN
+F 1 "MH_M4" V 2995 1650 50  0000 L CNN
+F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 2950 1500 50  0001 C CNN
+F 3 "" H 2950 1500 50  0001 C CNN
+F 4 "503000" H 2950 1500 50  0001 C CNN "ItemNo"
+	1    2950 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L erp:MountingHole_Pad H6
+U 1 1 5E370B61
+P 2950 1700
+F 0 "H6" V 2904 1850 50  0000 L CNN
+F 1 "MH_M4" V 2995 1850 50  0000 L CNN
+F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 2950 1700 50  0001 C CNN
+F 3 "" H 2950 1700 50  0001 C CNN
+F 4 "503000" H 2950 1700 50  0001 C CNN "ItemNo"
+	1    2950 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L erp:MountingHole_Pad H7
+U 1 1 5E3ACE0F
+P 2950 1900
+F 0 "H7" V 2904 2050 50  0000 L CNN
+F 1 "MH_M4" V 2995 2050 50  0000 L CNN
+F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 2950 1900 50  0001 C CNN
+F 3 "" H 2950 1900 50  0001 C CNN
+F 4 "503000" H 2950 1900 50  0001 C CNN "ItemNo"
+	1    2950 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L erp:MountingHole_Pad H8
+U 1 1 5E3E924C
+P 2950 2100
+F 0 "H8" V 2904 2250 50  0000 L CNN
+F 1 "MH_M4" V 2995 2250 50  0000 L CNN
+F 2 "erp:MountingHole_4.3mm_M4_Pad_Via" H 2950 2100 50  0001 C CNN
+F 3 "" H 2950 2100 50  0001 C CNN
+F 4 "503000" H 2950 2100 50  0001 C CNN "ItemNo"
+	1    2950 2100
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
