@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "PowerUnit"
-Date "2019-12-14"
+Date "2019-12-15"
 Rev "A"
 Comp ""
 Comment1 ""
@@ -321,7 +321,7 @@ CAN_L
 NoConn ~ 1900 900 
 Text Label 800  1300 0    50   ~ 0
 OUT_LIGHT
-Text Label 1900 3400 0    50   ~ 0
+Text Label 2500 3400 2    50   ~ 0
 OUT_LIGHT
 Text Label 2500 2600 2    50   ~ 0
 IN_LIGHT
@@ -2312,7 +2312,7 @@ Wire Wire Line
 	8400 4200 8300 4200
 Text Label 800  2800 0    50   ~ 0
 PWD_AUX
-Text Label 1900 3700 0    50   ~ 0
+Text Label 2500 3700 2    50   ~ 0
 OUT_BRAKE_A
 Text Label 800  3600 0    50   ~ 0
 OUT_BRAKE_B
@@ -2343,13 +2343,13 @@ Wire Wire Line
 	600  3400 1400 3400
 Wire Wire Line
 	600  3400 600  3500
-Text Label 1900 3500 0    50   ~ 0
+Text Label 2500 3500 2    50   ~ 0
 OUT_LEFT
 Text Label 800  2200 0    50   ~ 0
 OUT_LEFT
 Text Label 2500 1300 2    50   ~ 0
 OUT_LEFT
-Text Label 1900 3600 0    50   ~ 0
+Text Label 2500 3600 2    50   ~ 0
 OUT_RIGHT
 Text Label 800  2300 0    50   ~ 0
 OUT_RIGHT
