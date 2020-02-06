@@ -1,0 +1,12 @@
+Thread type: M4
+Length (l1): 10 mm
+Head diameter: 7 mm
+Head height: 4 mm
+Standards: ISO 4762
+Material: Stainless steel A2
+Surface: Plain
+RoHS-compliant: Yes
+Head type: Socket head
+Drive type: Hexagon socket
+Internal drive: IH3
+Pitch: 0.7 mm
