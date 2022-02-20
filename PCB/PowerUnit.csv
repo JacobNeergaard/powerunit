@@ -1,3 +1,4 @@
+Reference,Value,Symbol,Footprint,ItemNo,Manufacturer,"Part number"
 C1,1u,C,erp:C_0805_2012Metric,220300,"Wurth Elektronik",885012207078
 C2,100n,C,erp:C_0805_2012Metric,220250,"Wurth Elektronik",885012207098
 C3,100n,C,erp:C_0805_2012Metric,220250,"Wurth Elektronik",885012207098
