@@ -51,7 +51,7 @@ uint8_t mode;
 
 // State
 uint8_t state;
-#define OFF 0; 
+#define OFF 0;
 #define ON 1;
 
 uint8_t count;
@@ -59,20 +59,20 @@ uint16_t timer;
 
 void main(void) {
 	InitGPIO();
-	
+
 	left_threshold = 0;
-  right_threshold = 0;
-	
+	right_threshold = 0;
+
 	hazard_count = 0;
 	party_count = 0;
 	special_timer = 0;
 	special_last = IDLE;
-	
+
 	timer = 0;
 	count = 0;
 	mode = IDLE;
 	state = OFF;
-	
+
 	while(1) {
 		// Input filtering
 		if((BTNLEFT_PORT->IDR & BTNLEFT_PIN) == 0) {
@@ -87,12 +87,12 @@ void main(void) {
 		else {
 			right_threshold = 0;
 		}
-		
+
 		if(left_threshold > 0 && right_threshold > 0) {
 			left_threshold = 0;
 			right_threshold = 0;
 		}
-		
+
 		input = IN_NONE;
 		if(left_threshold == 500) {
 			input = IN_LEFT_SHORT;
@@ -108,7 +108,7 @@ void main(void) {
 			input = IN_RIGHT_LONG;
 			right_threshold = 10000;
 		}
-		
+
 		// Party / Hazard detect
 		if(input == 1) {
 			if(special_last == 2) {
@@ -127,7 +127,7 @@ void main(void) {
 			special_timer = 10000;
 			special_last = RIGHT;
 		}
-		
+
 		if(special_timer > 0) {
 			special_timer--;
 		}
@@ -136,15 +136,15 @@ void main(void) {
 			hazard_count = 0;
 			party_count = 0;
 		}
-		
+
 		if(hazard_count >= 2) {
 			input = IN_HAZARD;
 		}
-		
+
 		if(party_count >= 4) {
 			input = IN_PARTY;
 		}
-		
+
 		// Changing mode
 		if(input == 5) {
 			if(mode != 3) {
@@ -198,7 +198,7 @@ void main(void) {
 			mode = RIGHT; // 2
 			count = 100;
 		}
-		
+
 		// Mode statemachine
 		if(mode != 0 && mode != 4) {
 			if(timer == 0) {
@@ -297,7 +297,7 @@ void SetOutput(uint8_t pattern) {
 }
 
 void Delay(uint16_t nCount) {
-  while (nCount != 0) {
-    nCount--;
-  }
+	while (nCount != 0) {
+		nCount--;
+	}
 }
