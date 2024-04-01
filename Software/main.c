@@ -18,7 +18,6 @@
 #define BTNRIGHT_PORT GPIOB
 #define BTNRIGHT_PIN GPIO_PIN_4
 
-void Delay(uint16_t nCount);
 void InitGPIO(void);
 void SetOutput(uint8_t mode);
 
@@ -293,11 +292,5 @@ void SetOutput(uint8_t pattern) {
 			GPIO_WriteHigh(LEFTOUT_PORT, LEFTOUT_PIN);
 			GPIO_WriteHigh(RIGHTOUT_PORT, RIGHTOUT_PIN);
 			break;
-	}
-}
-
-void Delay(uint16_t nCount) {
-	while (nCount != 0) {
-		nCount--;
 	}
 }
