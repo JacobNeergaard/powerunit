@@ -5802,7 +5802,7 @@
   )
 
   (symbol (lib_id "erp:R") (at 60.96 128.27 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-00005e0859be)
     (property "Reference" "R6" (at 62.738 127.1016 0)
       (effects (font (size 1.27 1.27)) (justify left))
